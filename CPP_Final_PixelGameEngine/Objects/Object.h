@@ -12,7 +12,9 @@ public:
 	void setSkin(std::string newskin) { skin = newskin; }
 
 protected:
-	Vector2i position = {0, 0};
+	Vector2i position = { 0, 0 };
+	Vector2 Velocity = { 0, 0 };
+	float gravity = 1.0;
 private:
 	std::string skin = "Entity/DefaultEntity.png";
 };

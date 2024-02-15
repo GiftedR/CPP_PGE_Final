@@ -1,5 +1,6 @@
 #define OLC_PGE_APPLICATION
 #include "Objects/ObjectTypes.h"
+#include "olcPixelGameEngine.h"
 
 using namespace olc;
 
@@ -19,6 +20,7 @@ public:
 		if (GetKey(Key::S).bHeld) { usr.movePosition(Vector2i(0, 1 * usr.getspeed() * delta)); }
 		if (GetKey(Key::D).bHeld) { usr.movePosition(Vector2i(1 * usr.getspeed() * delta, 0)); }
 		if (GetKey(Key::A).bHeld) { usr.movePosition(Vector2i(-1 * usr.getspeed() * delta, 0)); }
+		//Dev Actions
 	}
 
 	bool OnUserCreate() override
@@ -40,7 +42,12 @@ public:
 			return true;
 		}
 		Clear(BLACK);
-		
+#pragma region Gravity
+
+#pragma endregion
+
+
+
 		checkUserInput(user, fElapsedTime);
 		sprTile = std::make_unique<olc::Sprite>(user.getSkin());
 		DrawSprite(user.getPosition().x, user.getPosition().y, sprTile.get(), 1);
@@ -48,7 +55,7 @@ public:
 		return true;
 	}
 private:
-	olc::Pixel clearClr = olc::Pixel(0.3f, 0.9f, 0.3f);
+	olc::Pixel clearClr = olc::Pixel(0.3, 0.9, 0.3);
 	Player user;
 	std::vector<Object> gameItems = { user };
 

@@ -1,2 +1,25 @@
-﻿  Settings.cpp
+﻿  Source.cpp
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(58,45): warning C4244: 'argument': conversion from 'double' to 'uint8_t', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(58,40): warning C4244: 'argument': conversion from 'double' to 'uint8_t', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(58,35): warning C4244: 'argument': conversion from 'double' to 'uint8_t', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(19,80): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(19,80): warning C4244:         with
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(19,80): warning C4244:         [
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(19,80): warning C4244:             T=int
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(19,80): warning C4244:         ]
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(20,79): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(20,79): warning C4244:         with
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(20,79): warning C4244:         [
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(20,79): warning C4244:             T=int
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(20,79): warning C4244:         ]
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(21,76): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(21,76): warning C4244:         with
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(21,76): warning C4244:         [
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(21,76): warning C4244:             T=int
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(21,76): warning C4244:         ]
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(22,77): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(22,77): warning C4244:         with
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(22,77): warning C4244:         [
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(22,77): warning C4244:             T=int
+D:\School\Cpp\CPP_PGE_Final\CPP_Final_PixelGameEngine\Source.cpp(22,77): warning C4244:         ]
   CPP_Final_PixelGameEngine.vcxproj -> D:\School\Cpp\CPP_PGE_Final\x64\Debug\CPP_Final_PixelGameEngine.exe
