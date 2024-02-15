@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Objects\Entity\Entity.cpp" />
+    <ClCompile Include="Objects\Entity\Player\Player.cpp" />
+    <ClCompile Include="Settings.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Objects\Object.cpp" />
   </ItemGroup>
@@ -135,7 +137,12 @@
     <ClInclude Include="data.h" />
     <ClInclude Include="Objects\Entity\Entity.h" />
     <ClInclude Include="Objects\Object.h" />
+    <ClInclude Include="Objects\ObjectTypes.h" />
     <ClInclude Include="olcPixelGameEngine.h" />
+    <ClInclude Include="Objects\Entity\Player\Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Objects\Entity\DefaultEntity.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

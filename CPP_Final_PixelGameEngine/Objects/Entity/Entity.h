@@ -1,12 +1,13 @@
 #pragma once
-#include "../Object.h"
 #include <string>
+#include "../Object.h"
 class Entity :
     public Object
 {
 public:
-    virtual void draw(std::string spriteloc);
+    float getspeed() { return speed; };
 protected:
+    float speed = 200.0;
 private:
 };
 

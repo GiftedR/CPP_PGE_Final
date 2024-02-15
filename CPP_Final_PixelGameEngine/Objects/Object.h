@@ -5,13 +5,15 @@
 class Object
 {
 public:
-	virtual void draw() = 0;
-	
-	void movePosition(Vector2 newpos);
-	Vector2 getPosition();
+	void movePosition(Vector2i newpos) { position += newpos; };
+	Vector2i getPosition() { return position; };
+
+	std::string getSkin() { return skin; };
+	void setSkin(std::string newskin) { skin = newskin; }
 
 protected:
-	Vector2 position = {1, 1};
+	Vector2i position = {0, 0};
 private:
+	std::string skin = "Entity/DefaultEntity.png";
 };
 

@@ -1,8 +1,2 @@
-﻿  Entity.cpp
-  Source.cpp
-F:\School\Cpp\CPP_Final_PixelGameEngine\CPP_Final_PixelGameEngine\Source.cpp(30,47): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
-F:\School\Cpp\CPP_Final_PixelGameEngine\CPP_Final_PixelGameEngine\Source.cpp(30,41): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
-F:\School\Cpp\CPP_Final_PixelGameEngine\CPP_Final_PixelGameEngine\Source.cpp(30,35): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
-  Object.cpp
-  Generating Code...
-  CPP_Final_PixelGameEngine.vcxproj -> F:\School\Cpp\CPP_Final_PixelGameEngine\x64\Debug\CPP_Final_PixelGameEngine.exe
+﻿  Settings.cpp
+  CPP_Final_PixelGameEngine.vcxproj -> D:\School\Cpp\CPP_PGE_Final\x64\Debug\CPP_Final_PixelGameEngine.exe
